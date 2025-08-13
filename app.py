@@ -28,7 +28,7 @@ client = openai.AzureOpenAI(
 st.sidebar.title("BEAT - Business Emotion Assessment Tracker")
 
 # file_path = 'processed_feedback (5).xlsx'
-file_path='C:/Users/PARUNRAT/OneDrive - Capgemini/Documents/Sentiments'
+file_path='Sentiments'
 # file_path="https://capgemini.sharepoint.com/sites/upload/Shared Documents/BEAT"
 excel_files = [f for f in os.listdir(file_path) if f.endswith('.xlsx') and '~$' not in f]
 
