@@ -1,0 +1,1 @@
+directory="C:/Users/PARUNRAT/Documents/BIS/Sentiment_analysis/Aldi/Sentiments"
