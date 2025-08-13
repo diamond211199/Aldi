@@ -276,7 +276,7 @@ if option == "Sentiment Analysis":
     st.markdown(create_html_table(aggregated_df), unsafe_allow_html=True)
 
 if option=="Differencial Analysis":
-    st.title("Difference Analysis")
+    st.title("Differencial Analysis")
     st.markdown("""
         <p style="font-size: 18px; color: #4CAF50;">
         Compare two categories to analyze their differences in ticket feedback.
